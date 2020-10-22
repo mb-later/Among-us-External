@@ -6,6 +6,13 @@
 #include <stdlib.h>
 
 
+//note color hack and skin changer hack dont work for some reason tried messin around with it as much as i could
+// u gotta update the offsets for the isDead(Respawn)
+//u can mess around with the code as much as u like
+
+
+
+
 
 
 using namespace std;
@@ -36,7 +43,7 @@ int main()
 {
     int ct = 12;
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), ct);
-    SetConsoleTitle("Among Us Hack by Nextro - Private Version 2.0");
+    SetConsoleTitle("Among Us Hack by MBL - Private Version 2.0"); //follow insta: fthkap1an
     HWND hwnd_AC = FindWindowA(NULL, "Among Us");
     if (hwnd_AC == nullptr)
     {
